@@ -1,0 +1,4 @@
+node_modules
+
+# Don't commit Mac's FS Nonesense
+.DS_STORE

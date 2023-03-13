@@ -1,0 +1,1 @@
+This is the include2.md content.

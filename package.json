@@ -1,0 +1,32 @@
+{
+  "name": "includerjs",
+  "version": "1.0.0",
+  "description": "A bare bones module for including files in other files.",
+  "author": "Rev. Dave Thompson",
+  "main": "index.js",
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worlduniting/includerJS.git"
+  },
+  "keywords": [
+    "Include",
+    "javascript",
+    "nesting",
+    "importing"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/worlduniting/includerJS/issues"
+  },
+  "homepage": "https://github.com/worlduniting/includerJS#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
